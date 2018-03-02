@@ -1,26 +1,26 @@
 #include<stdio.h>
 int main()
 {
-    char string[50];
+    char str[50];
     int i,count=0,c=0;
     printf("enter the string");
-    scanf("%s",string);
-    for(i=0;string[i]!=0;i++)
+    scanf("%s",str);
+    for(i=0;str[i]!=0;i++)
     {
         count++;
     }
-    for(i=0;string[i]!=0;i++)
+    for(i=0;str[i]!=0;i++)
     {
         for(j=count-1;j>=0;j--)
         {
-            if(string[i]==string[j])
+            if(str[i]==str[j])
             {
                 c++;
                 break;
             }
         }
     }
-    if(count==c)
+    if(count==0)
     {
         printf("PALINDROME");
     }
