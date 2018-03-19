@@ -8,7 +8,7 @@ int main(void) {
 	{
 		for(j=0;j<10;j++)
 		{
-			if(a[j]==c[i])
+			if(a[j]==b[i])
 			{
 			f=1;
 				break;
